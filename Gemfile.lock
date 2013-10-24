@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    devise_traceable (0.0.5)
+    devise_traceable (0.0.8)
       devise
       warden
 

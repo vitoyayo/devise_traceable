@@ -11,9 +11,9 @@ Gem::Specification.new do |s|
   s.executables   = s.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
   s.version = DeviseTraceable::VERSION.dup
-  s.email = "sbertel@mobithought.com"
-  s.homepage = "http://github.com/shenoudab/devise_traceable"
-  s.author = 'Shenouda Bertel'
+  s.email = "sukhchander@sellect.com"
+  s.homepage = "http://github.com/sellect/devise_traceable"
+  s.author = 'Sukhchander Khanna'
   s.add_dependency("warden")
   s.add_dependency("devise")
 end
