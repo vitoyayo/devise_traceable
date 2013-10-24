@@ -8,6 +8,7 @@ module Devise
 
         "#{self.class}Tracing".constantize.create(
           ip: self.current_sign_in_ip,
+          ip_location: self.current_location,
           sign_in_at: self.current_sign_in_at,
           sign_out_at: new_current,
           "#{self.class}".foreign_key.to_sym => self.id
