@@ -29,9 +29,9 @@ spec = Gem::Specification.new do |s|
   s.files =  FileList["[A-Z]*", "{lib}/**/*"]
   s.require_paths = ["lib"]
   s.version = DeviseTraceable::VERSION.dup
-  s.email = "sbertel@mobithought.com"
-  s.homepage = "http://github.com/shenoudab/devise_traceable"
-  s.author = 'Shenouda Bertel'
+  s.email = "vicedeno@gmail.com"
+  s.homepage = "http://github.com/vitoyayo/devise_traceable"
+  s.author = 'Victor Cedeño'
   s.add_dependency("warden")
   s.add_dependency("devise")
 end

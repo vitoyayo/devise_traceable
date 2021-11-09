@@ -4,9 +4,8 @@ class DeviseCreateUserTracings < ActiveRecord::Migration[6.1]
       t.references :user, foreign_key: true, type: :uuid
       t.datetime :sign_in_at
       t.datetime :sign_out_at
-      t.string :sign_in_ip
-      t.string :sign_out_ip
-      t.string :user_agent
+      t.string :ip_location
+      t.string :ip
       t.timestamps
   end
 
