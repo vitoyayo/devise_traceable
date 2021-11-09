@@ -1,4 +1,7 @@
 source "http://rubygems.org"
-source 'http://sellect:devel0pers@gems.kingandpartners.com/'
+gem 'rails'
+gem 'mysql'
+gem 'warden'
+gem 'devise'
 
 gemspec
